@@ -1,0 +1,496 @@
+[33mcommit 8f19877c9d61152a3ba9141b9c8a5ee2e0cbcb87[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: wasiffouzan <mohdwasiffouzan.com>
+Date:   Tue Oct 22 19:42:06 2024 -1200
+
+    Add JDK file using Git LFS
+
+ Oracle_JDK-23/lib/modules | 3 [32m+++[m
+ 1 file changed, 3 insertions(+)
+
+[33mcommit 138563076eea146d722ca474fc8a80c18554872d[m
+Author: wasiffouzan <mohdwasiffouzan.com>
+Date:   Tue Oct 22 19:41:47 2024 -1200
+
+    Remove large JDK file
+
+ Oracle_JDK-23/lib/modules | 3 [31m---[m
+ 1 file changed, 3 deletions(-)
+
+[33mcommit 770a55f2c176ea9a0d9bc0d6dec20b3400bb937f[m
+Author: wasiffouzan <mohdwasiffouzan.com>
+Date:   Tue Oct 22 19:31:37 2024 -1200
+
+    Use Git LFS for large files
+
+ Oracle_JDK-23/lib/modules                                |  3 [32m+++[m
+ presc.txt                                                |  1 [32m+[m
+ review.txt                                               |  3 [32m+++[m
+ .../surefire-reports/TEST-com.rmit.PrescriptionTest.xml  | 16 [32m++++++++[m[31m--------[m
+ target/surefire-reports/com.rmit.PrescriptionTest.txt    |  2 [32m+[m[31m-[m
+ 5 files changed, 16 insertions(+), 9 deletions(-)
+
+[33mcommit 91e113b238dbbb503a93df2da44fcd0a00d5b5da[m
+Author: wasiffouzan <mohdwasiffouzan.com>
+Date:   Tue Oct 22 17:37:40 2024 -1200
+
+    Removed large Oracle_JDK-23/lib/modules file to comply with GitHub size limits
+
+ Oracle_JDK-23/lib/modules | Bin [31m140966344[m -> [32m0[m bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit 7b2d0757c24c535379805348aac99118840302ab[m
+Author: wasiffouzan <mohdwasiffouzan.com>
+Date:   Tue Oct 22 17:32:44 2024 -1200
+
+    Track large files with Git LFS
+
+ .gitattributes | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+
+[33mcommit 427d8ae6913306df844f035ade43cda1b0d7fe3e[m
+Author: wasiffouzan <mohdwasiffouzan.com>
+Date:   Tue Oct 22 17:18:29 2024 -1200
+
+    Initial commit with prescription.java
+
+ Oracle_JDK-23/LICENSE                              |  118 [32m+[m
+ Oracle_JDK-23/README                               |    6 [32m+[m
+ .../bin/api-ms-win-core-console-l1-1-0.dll         |  Bin [31m0[m -> [32m22008[m bytes
+ .../bin/api-ms-win-core-console-l1-2-0.dll         |  Bin [31m0[m -> [32m21968[m bytes
+ .../bin/api-ms-win-core-datetime-l1-1-0.dll        |  Bin [31m0[m -> [32m22016[m bytes
+ Oracle_JDK-23/bin/api-ms-win-core-debug-l1-1-0.dll |  Bin [31m0[m -> [32m22024[m bytes
+ .../bin/api-ms-win-core-errorhandling-l1-1-0.dll   |  Bin [31m0[m -> [32m21968[m bytes
+ .../bin/api-ms-win-core-fibers-l1-1-0.dll          |  Bin [31m0[m -> [32m22024[m bytes
+ Oracle_JDK-23/bin/api-ms-win-core-file-l1-1-0.dll  |  Bin [31m0[m -> [32m26120[m bytes
+ Oracle_JDK-23/bin/api-ms-win-core-file-l1-2-0.dll  |  Bin [31m0[m -> [32m22016[m bytes
+ Oracle_JDK-23/bin/api-ms-win-core-file-l2-1-0.dll  |  Bin [31m0[m -> [32m22016[m bytes
+ .../bin/api-ms-win-core-handle-l1-1-0.dll          |  Bin [31m0[m -> [32m21968[m bytes
+ Oracle_JDK-23/bin/api-ms-win-core-heap-l1-1-0.dll  |  Bin [31m0[m -> [32m22024[m bytes
+ .../bin/api-ms-win-core-interlocked-l1-1-0.dll     |  Bin [31m0[m -> [32m22024[m bytes
+ .../bin/api-ms-win-core-libraryloader-l1-1-0.dll   |  Bin [31m0[m -> [32m21984[m bytes
+ .../bin/api-ms-win-core-localization-l1-2-0.dll    |  Bin [31m0[m -> [32m21984[m bytes
+ .../bin/api-ms-win-core-memory-l1-1-0.dll          |  Bin [31m0[m -> [32m22008[m bytes
+ .../bin/api-ms-win-core-namedpipe-l1-1-0.dll       |  Bin [31m0[m -> [32m21984[m bytes
+ .../api-ms-win-core-processenvironment-l1-1-0.dll  |  Bin [31m0[m -> [32m22016[m bytes
+ .../bin/api-ms-win-core-processthreads-l1-1-0.dll  |  Bin [31m0[m -> [32m21968[m bytes
+ .../bin/api-ms-win-core-processthreads-l1-1-1.dll  |  Bin [31m0[m -> [32m22024[m bytes
+ .../bin/api-ms-win-core-profile-l1-1-0.dll         |  Bin [31m0[m -> [32m22024[m bytes
+ .../bin/api-ms-win-core-rtlsupport-l1-1-0.dll      |  Bin [31m0[m -> [32m22024[m bytes
+ .../bin/api-ms-win-core-string-l1-1-0.dll          |  Bin [31m0[m -> [32m22024[m bytes
+ Oracle_JDK-23/bin/api-ms-win-core-synch-l1-1-0.dll |  Bin [31m0[m -> [32m22024[m bytes
+ Oracle_JDK-23/bin/api-ms-win-core-synch-l1-2-0.dll |  Bin [31m0[m -> [32m22008[m bytes
+ .../bin/api-ms-win-core-sysinfo-l1-1-0.dll         |  Bin [31m0[m -> [32m22024[m bytes
+ .../bin/api-ms-win-core-timezone-l1-1-0.dll        |  Bin [31m0[m -> [32m22024[m bytes
+ Oracle_JDK-23/bin/api-ms-win-core-util-l1-1-0.dll  |  Bin [31m0[m -> [32m22024[m bytes
+ Oracle_JDK-23/bin/api-ms-win-crt-conio-l1-1-0.dll  |  Bin [31m0[m -> [32m22008[m bytes
+ .../bin/api-ms-win-crt-convert-l1-1-0.dll          |  Bin [31m0[m -> [32m26120[m bytes
+ .../bin/api-ms-win-crt-environment-l1-1-0.dll      |  Bin [31m0[m -> [32m22024[m bytes
+ .../bin/api-ms-win-crt-filesystem-l1-1-0.dll       |  Bin [31m0[m -> [32m21984[m bytes
+ Oracle_JDK-23/bin/api-ms-win-crt-heap-l1-1-0.dll   |  Bin [31m0[m -> [32m22024[m bytes
+ Oracle_JDK-23/bin/api-ms-win-crt-locale-l1-1-0.dll |  Bin [31m0[m -> [32m22024[m bytes
+ Oracle_JDK-23/bin/api-ms-win-crt-math-l1-1-0.dll   |  Bin [31m0[m -> [32m30160[m bytes
+ .../bin/api-ms-win-crt-multibyte-l1-1-0.dll        |  Bin [31m0[m -> [32m30216[m bytes
+ .../bin/api-ms-win-crt-private-l1-1-0.dll          |  Bin [31m0[m -> [32m75264[m bytes
+ .../bin/api-ms-win-crt-process-l1-1-0.dll          |  Bin [31m0[m -> [32m21968[m bytes
+ .../bin/api-ms-win-crt-runtime-l1-1-0.dll          |  Bin [31m0[m -> [32m26120[m bytes
+ Oracle_JDK-23/bin/api-ms-win-crt-stdio-l1-1-0.dll  |  Bin [31m0[m -> [32m26120[m bytes
+ Oracle_JDK-23/bin/api-ms-win-crt-string-l1-1-0.dll |  Bin [31m0[m -> [32m26080[m bytes
+ Oracle_JDK-23/bin/api-ms-win-crt-time-l1-1-0.dll   |  Bin [31m0[m -> [32m22024[m bytes
+ .../bin/api-ms-win-crt-utility-l1-1-0.dll          |  Bin [31m0[m -> [32m22024[m bytes
+ Oracle_JDK-23/bin/attach.dll                       |  Bin [31m0[m -> [32m29296[m bytes
+ Oracle_JDK-23/bin/awt.dll                          |  Bin [31m0[m -> [32m1480304[m bytes
+ Oracle_JDK-23/bin/dt_shmem.dll                     |  Bin [31m0[m -> [32m36976[m bytes
+ Oracle_JDK-23/bin/dt_socket.dll                    |  Bin [31m0[m -> [32m36464[m bytes
+ Oracle_JDK-23/bin/extnet.dll                       |  Bin [31m0[m -> [32m24176[m bytes
+ Oracle_JDK-23/bin/fontmanager.dll                  |  Bin [31m0[m -> [32m864368[m bytes
+ Oracle_JDK-23/bin/freetype.dll                     |  Bin [31m0[m -> [32m547440[m bytes
+ Oracle_JDK-23/bin/instrument.dll                   |  Bin [31m0[m -> [32m52336[m bytes
+ Oracle_JDK-23/bin/j2gss.dll                        |  Bin [31m0[m -> [32m52336[m bytes
+ Oracle_JDK-23/bin/j2pcsc.dll                       |  Bin [31m0[m -> [32m26224[m bytes
+ Oracle_JDK-23/bin/j2pkcs11.dll                     |  Bin [31m0[m -> [32m80496[m bytes
+ Oracle_JDK-23/bin/jaas.dll                         |  Bin [31m0[m -> [32m28272[m bytes
+ Oracle_JDK-23/bin/jabswitch.exe                    |  Bin [31m0[m -> [32m45168[m bytes
+ Oracle_JDK-23/bin/jaccessinspector.exe             |  Bin [31m0[m -> [32m106608[m bytes
+ Oracle_JDK-23/bin/jaccesswalker.exe                |  Bin [31m0[m -> [32m70768[m bytes
+ Oracle_JDK-23/bin/jar.exe                          |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/jarsigner.exe                    |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/java.dll                         |  Bin [31m0[m -> [32m118384[m bytes
+ Oracle_JDK-23/bin/java.exe                         |  Bin [31m0[m -> [32m54384[m bytes
+ Oracle_JDK-23/bin/javaaccessbridge.dll             |  Bin [31m0[m -> [32m307312[m bytes
+ Oracle_JDK-23/bin/javac.exe                        |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/javadoc.exe                      |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/javajpeg.dll                     |  Bin [31m0[m -> [32m181872[m bytes
+ Oracle_JDK-23/bin/javap.exe                        |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/javaw.exe                        |  Bin [31m0[m -> [32m54384[m bytes
+ Oracle_JDK-23/bin/jawt.dll                         |  Bin [31m0[m -> [32m21104[m bytes
+ Oracle_JDK-23/bin/jcmd.exe                         |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/jconsole.exe                     |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/jdb.exe                          |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/jdeprscan.exe                    |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/jdeps.exe                        |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/jdwp.dll                         |  Bin [31m0[m -> [32m236144[m bytes
+ Oracle_JDK-23/bin/jfr.exe                          |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/jhsdb.exe                        |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/jimage.dll                       |  Bin [31m0[m -> [32m33392[m bytes
+ Oracle_JDK-23/bin/jimage.exe                       |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/jinfo.exe                        |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/jli.dll                          |  Bin [31m0[m -> [32m85104[m bytes
+ Oracle_JDK-23/bin/jlink.exe                        |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/jmap.exe                         |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/jmod.exe                         |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/jpackage.dll                     |  Bin [31m0[m -> [32m136816[m bytes
+ Oracle_JDK-23/bin/jpackage.exe                     |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/jps.exe                          |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/jrunscript.exe                   |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/jshell.exe                       |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/jsound.dll                       |  Bin [31m0[m -> [32m61040[m bytes
+ Oracle_JDK-23/bin/jstack.exe                       |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/jstat.exe                        |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/jstatd.exe                       |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/jsvml.dll                        |  Bin [31m0[m -> [32m870000[m bytes
+ Oracle_JDK-23/bin/jvmcicompiler.dll                |  Bin [31m0[m -> [32m44005488[m bytes
+ Oracle_JDK-23/bin/jwebserver.exe                   |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/keytool.exe                      |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/kinit.exe                        |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/klist.exe                        |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/ktab.exe                         |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/lcms.dll                         |  Bin [31m0[m -> [32m257136[m bytes
+ Oracle_JDK-23/bin/management.dll                   |  Bin [31m0[m -> [32m29296[m bytes
+ Oracle_JDK-23/bin/management_agent.dll             |  Bin [31m0[m -> [32m24688[m bytes
+ Oracle_JDK-23/bin/management_ext.dll               |  Bin [31m0[m -> [32m35952[m bytes
+ Oracle_JDK-23/bin/mlib_image.dll                   |  Bin [31m0[m -> [32m525424[m bytes
+ Oracle_JDK-23/bin/msvcp140.dll                     |  Bin [31m0[m -> [32m578384[m bytes
+ Oracle_JDK-23/bin/net.dll                          |  Bin [31m0[m -> [32m59504[m bytes
+ Oracle_JDK-23/bin/nio.dll                          |  Bin [31m0[m -> [32m79984[m bytes
+ Oracle_JDK-23/bin/prefs.dll                        |  Bin [31m0[m -> [32m25712[m bytes
+ Oracle_JDK-23/bin/rmi.dll                          |  Bin [31m0[m -> [32m21104[m bytes
+ Oracle_JDK-23/bin/rmiregistry.exe                  |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/saproc.dll                       |  Bin [31m0[m -> [32m39024[m bytes
+ Oracle_JDK-23/bin/serialver.exe                    |  Bin [31m0[m -> [32m23664[m bytes
+ Oracle_JDK-23/bin/server/classes.jsa               |  Bin [31m0[m -> [32m14352384[m bytes
+ Oracle_JDK-23/bin/server/classes_nocoops.jsa       |  Bin [31m0[m -> [32m14352384[m bytes
+ Oracle_JDK-23/bin/server/jvm.dll                   |  Bin [31m0[m -> [32m13516400[m bytes
+ Oracle_JDK-23/bin/splashscreen.dll                 |  Bin [31m0[m -> [32m216176[m bytes
+ Oracle_JDK-23/bin/sspi_bridge.dll                  |  Bin [31m0[m -> [32m44656[m bytes
+ Oracle_JDK-23/bin/sunmscapi.dll                    |  Bin [31m0[m -> [32m48752[m bytes
+ Oracle_JDK-23/bin/syslookup.dll                    |  Bin [31m0[m -> [32m27760[m bytes
+ Oracle_JDK-23/bin/ucrtbase.dll                     |  Bin [31m0[m -> [32m1123808[m bytes
+ Oracle_JDK-23/bin/vcruntime140.dll                 |  Bin [31m0[m -> [32m109440[m bytes
+ Oracle_JDK-23/bin/vcruntime140_1.dll               |  Bin [31m0[m -> [32m49560[m bytes
+ Oracle_JDK-23/bin/verify.dll                       |  Bin [31m0[m -> [32m54896[m bytes
+ Oracle_JDK-23/bin/w2k_lsa_auth.dll                 |  Bin [31m0[m -> [32m31856[m bytes
+ Oracle_JDK-23/bin/windowsaccessbridge-64.dll       |  Bin [31m0[m -> [32m72304[m bytes
+ Oracle_JDK-23/bin/zip.dll                          |  Bin [31m0[m -> [32m84080[m bytes
+ Oracle_JDK-23/conf/jaxp-strict.properties.template |  123 [32m+[m
+ Oracle_JDK-23/conf/jaxp.properties                 |  201 [32m++[m
+ Oracle_JDK-23/conf/logging.properties              |   63 [32m+[m
+ Oracle_JDK-23/conf/management/jmxremote.access     |   79 [32m+[m
+ .../conf/management/jmxremote.password.template    |  115 [32m+[m
+ .../conf/management/management.properties          |  326 [32m+++[m
+ Oracle_JDK-23/conf/net.properties                  |  168 [32m++[m
+ Oracle_JDK-23/conf/security/java.policy            |   46 [32m+[m
+ Oracle_JDK-23/conf/security/java.security          | 1530 [32m+++++++++++[m
+ Oracle_JDK-23/conf/security/policy/README.txt      |   54 [32m+[m
+ .../policy/limited/default_US_export.policy        |    6 [32m+[m
+ .../security/policy/limited/default_local.policy   |   14 [32m+[m
+ .../security/policy/limited/exempt_local.policy    |   13 [32m+[m
+ .../policy/unlimited/default_US_export.policy      |    6 [32m+[m
+ .../security/policy/unlimited/default_local.policy |    6 [32m+[m
+ Oracle_JDK-23/conf/sound.properties                |   39 [32m+[m
+ Oracle_JDK-23/include/classfile_constants.h        |  588 [32m+++++[m
+ Oracle_JDK-23/include/jawt.h                       |  356 [32m+++[m
+ Oracle_JDK-23/include/jdwpTransport.h              |  276 [32m++[m
+ Oracle_JDK-23/include/jni.h                        | 2001 [32m+++++++++++++++[m
+ Oracle_JDK-23/include/jvmti.h                      | 2658 [32m++++++++++++++++++++[m
+ Oracle_JDK-23/include/jvmticmlr.h                  |  115 [32m+[m
+ .../include/win32/bridge/AccessBridgeCallbacks.h   |   92 [32m+[m
+ .../include/win32/bridge/AccessBridgeCalls.h       |  724 [32m++++++[m
+ .../include/win32/bridge/AccessBridgePackages.h    | 2215 [32m++++++++++++++++[m
+ Oracle_JDK-23/include/win32/jawt_md.h              |   59 [32m+[m
+ Oracle_JDK-23/include/win32/jni_md.h               |   39 [32m+[m
+ Oracle_JDK-23/jmods/java.base.jmod                 |  Bin [31m0[m -> [32m22086804[m bytes
+ Oracle_JDK-23/jmods/java.compiler.jmod             |  Bin [31m0[m -> [32m135755[m bytes
+ Oracle_JDK-23/jmods/java.datatransfer.jmod         |  Bin [31m0[m -> [32m54059[m bytes
+ Oracle_JDK-23/jmods/java.desktop.jmod              |  Bin [31m0[m -> [32m12299558[m bytes
+ Oracle_JDK-23/jmods/java.instrument.jmod           |  Bin [31m0[m -> [32m51168[m bytes
+ Oracle_JDK-23/jmods/java.logging.jmod              |  Bin [31m0[m -> [32m118980[m bytes
+ Oracle_JDK-23/jmods/java.management.jmod           |  Bin [31m0[m -> [32m877182[m bytes
+ Oracle_JDK-23/jmods/java.management.rmi.jmod       |  Bin [31m0[m -> [32m93105[m bytes
+ Oracle_JDK-23/jmods/java.naming.jmod               |  Bin [31m0[m -> [32m480256[m bytes
+ Oracle_JDK-23/jmods/java.net.http.jmod             |  Bin [31m0[m -> [32m784522[m bytes
+ Oracle_JDK-23/jmods/java.prefs.jmod                |  Bin [31m0[m -> [32m61047[m bytes
+ Oracle_JDK-23/jmods/java.rmi.jmod                  |  Bin [31m0[m -> [32m283579[m bytes
+ Oracle_JDK-23/jmods/java.scripting.jmod            |  Bin [31m0[m -> [32m50508[m bytes
+ Oracle_JDK-23/jmods/java.se.jmod                   |  Bin [31m0[m -> [32m4683[m bytes
+ Oracle_JDK-23/jmods/java.security.jgss.jmod        |  Bin [31m0[m -> [32m702869[m bytes
+ Oracle_JDK-23/jmods/java.security.sasl.jmod        |  Bin [31m0[m -> [32m84149[m bytes
+ Oracle_JDK-23/jmods/java.smartcardio.jmod          |  Bin [31m0[m -> [32m64444[m bytes
+ Oracle_JDK-23/jmods/java.sql.jmod                  |  Bin [31m0[m -> [32m78725[m bytes
+ Oracle_JDK-23/jmods/java.sql.rowset.jmod           |  Bin [31m0[m -> [32m195626[m bytes
+ Oracle_JDK-23/jmods/java.transaction.xa.jmod       |  Bin [31m0[m -> [32m6498[m bytes
+ Oracle_JDK-23/jmods/java.xml.crypto.jmod           |  Bin [31m0[m -> [32m689635[m bytes
+ Oracle_JDK-23/jmods/java.xml.jmod                  |  Bin [31m0[m -> [32m4664919[m bytes
+ Oracle_JDK-23/jmods/jdk.accessibility.jmod         |  Bin [31m0[m -> [32m550319[m bytes
+ Oracle_JDK-23/jmods/jdk.attach.jmod                |  Bin [31m0[m -> [32m45108[m bytes
+ Oracle_JDK-23/jmods/jdk.charsets.jmod              |  Bin [31m0[m -> [32m1351585[m bytes
+ Oracle_JDK-23/jmods/jdk.compiler.jmod              |  Bin [31m0[m -> [32m10992509[m bytes
+ Oracle_JDK-23/jmods/jdk.crypto.cryptoki.jmod       |  Bin [31m0[m -> [32m418669[m bytes
+ Oracle_JDK-23/jmods/jdk.crypto.ec.jmod             |  Bin [31m0[m -> [32m4535[m bytes
+ Oracle_JDK-23/jmods/jdk.crypto.mscapi.jmod         |  Bin [31m0[m -> [32m88673[m bytes
+ Oracle_JDK-23/jmods/jdk.dynalink.jmod              |  Bin [31m0[m -> [32m158802[m bytes
+ Oracle_JDK-23/jmods/jdk.editpad.jmod               |  Bin [31m0[m -> [32m9582[m bytes
+ Oracle_JDK-23/jmods/jdk.graal.compiler.jmod        |  Bin [31m0[m -> [32m4469[m bytes
+ Oracle_JDK-23/jmods/jdk.graal.compiler.lib.jmod    |  Bin [31m0[m -> [32m19056979[m bytes
+ .../jmods/jdk.graal.compiler.management.jmod       |  Bin [31m0[m -> [32m4482[m bytes
+ Oracle_JDK-23/jmods/jdk.hotspot.agent.jmod         |  Bin [31m0[m -> [32m2263725[m bytes
+ Oracle_JDK-23/jmods/jdk.httpserver.jmod            |  Bin [31m0[m -> [32m172530[m bytes
+ Oracle_JDK-23/jmods/jdk.incubator.vector.jmod      |  Bin [31m0[m -> [32m1193684[m bytes
+ Oracle_JDK-23/jmods/jdk.internal.ed.jmod           |  Bin [31m0[m -> [32m9981[m bytes
+ Oracle_JDK-23/jmods/jdk.internal.jvmstat.jmod      |  Bin [31m0[m -> [32m86563[m bytes
+ Oracle_JDK-23/jmods/jdk.internal.le.jmod           |  Bin [31m0[m -> [32m520304[m bytes
+ Oracle_JDK-23/jmods/jdk.internal.md.jmod           |  Bin [31m0[m -> [32m248302[m bytes
+ Oracle_JDK-23/jmods/jdk.internal.opt.jmod          |  Bin [31m0[m -> [32m89371[m bytes
+ Oracle_JDK-23/jmods/jdk.internal.vm.ci.jmod        |  Bin [31m0[m -> [32m502673[m bytes
+ Oracle_JDK-23/jmods/jdk.jartool.jmod               |  Bin [31m0[m -> [32m227059[m bytes
+ Oracle_JDK-23/jmods/jdk.javadoc.jmod               |  Bin [31m0[m -> [32m5618202[m bytes
+ Oracle_JDK-23/jmods/jdk.jcmd.jmod                  |  Bin [31m0[m -> [32m171759[m bytes
+ Oracle_JDK-23/jmods/jdk.jconsole.jmod              |  Bin [31m0[m -> [32m487919[m bytes
+ Oracle_JDK-23/jmods/jdk.jdeps.jmod                 |  Bin [31m0[m -> [32m762907[m bytes
+ Oracle_JDK-23/jmods/jdk.jdi.jmod                   |  Bin [31m0[m -> [32m909479[m bytes
+ Oracle_JDK-23/jmods/jdk.jdwp.agent.jmod            |  Bin [31m0[m -> [32m142152[m bytes
+ Oracle_JDK-23/jmods/jdk.jfr.jmod                   |  Bin [31m0[m -> [32m867713[m bytes
+ Oracle_JDK-23/jmods/jdk.jlink.jmod                 |  Bin [31m0[m -> [32m463007[m bytes
+ Oracle_JDK-23/jmods/jdk.jpackage.jmod              |  Bin [31m0[m -> [32m1270297[m bytes
+ Oracle_JDK-23/jmods/jdk.jshell.jmod                |  Bin [31m0[m -> [32m822925[m bytes
+ Oracle_JDK-23/jmods/jdk.jsobject.jmod              |  Bin [31m0[m -> [32m5569[m bytes
+ Oracle_JDK-23/jmods/jdk.jstatd.jmod                |  Bin [31m0[m -> [32m39865[m bytes
+ Oracle_JDK-23/jmods/jdk.localedata.jmod            |  Bin [31m0[m -> [32m10994842[m bytes
+ Oracle_JDK-23/jmods/jdk.management.agent.jmod      |  Bin [31m0[m -> [32m88595[m bytes
+ Oracle_JDK-23/jmods/jdk.management.jfr.jmod        |  Bin [31m0[m -> [32m56965[m bytes
+ Oracle_JDK-23/jmods/jdk.management.jmod            |  Bin [31m0[m -> [32m78939[m bytes
+ Oracle_JDK-23/jmods/jdk.naming.dns.jmod            |  Bin [31m0[m -> [32m66020[m bytes
+ Oracle_JDK-23/jmods/jdk.naming.rmi.jmod            |  Bin [31m0[m -> [32m25824[m bytes
+ Oracle_JDK-23/jmods/jdk.net.jmod                   |  Bin [31m0[m -> [32m36506[m bytes
+ Oracle_JDK-23/jmods/jdk.nio.mapmode.jmod           |  Bin [31m0[m -> [32m5036[m bytes
+ Oracle_JDK-23/jmods/jdk.sctp.jmod                  |  Bin [31m0[m -> [32m26564[m bytes
+ Oracle_JDK-23/jmods/jdk.security.auth.jmod         |  Bin [31m0[m -> [32m82887[m bytes
+ Oracle_JDK-23/jmods/jdk.security.jgss.jmod         |  Bin [31m0[m -> [32m27686[m bytes
+ Oracle_JDK-23/jmods/jdk.unsupported.desktop.jmod   |  Bin [31m0[m -> [32m16563[m bytes
+ Oracle_JDK-23/jmods/jdk.unsupported.jmod           |  Bin [31m0[m -> [32m25513[m bytes
+ Oracle_JDK-23/jmods/jdk.xml.dom.jmod               |  Bin [31m0[m -> [32m44763[m bytes
+ Oracle_JDK-23/jmods/jdk.zipfs.jmod                 |  Bin [31m0[m -> [32m108675[m bytes
+ Oracle_JDK-23/legal/java.base/COPYRIGHT            |   69 [32m+[m
+ Oracle_JDK-23/legal/java.base/LICENSE              |  118 [32m+[m
+ Oracle_JDK-23/legal/java.base/aes.md               |   36 [32m+[m
+ Oracle_JDK-23/legal/java.base/asm.md               |   36 [32m+[m
+ Oracle_JDK-23/legal/java.base/c-libutl.md          |   35 [32m+[m
+ Oracle_JDK-23/legal/java.base/cldr.md              |  100 [32m+[m
+ Oracle_JDK-23/legal/java.base/icu.md               |  172 [32m++[m
+ Oracle_JDK-23/legal/java.base/public_suffix.md     |  399 [32m+++[m
+ Oracle_JDK-23/legal/java.base/siphash.md           |  150 [32m++[m
+ Oracle_JDK-23/legal/java.base/unicode.md           |  104 [32m+[m
+ Oracle_JDK-23/legal/java.base/wepoll.md            |   34 [32m+[m
+ Oracle_JDK-23/legal/java.base/zlib.md              |   27 [32m+[m
+ Oracle_JDK-23/legal/java.compiler/COPYRIGHT        |    1 [32m+[m
+ Oracle_JDK-23/legal/java.compiler/LICENSE          |    1 [32m+[m
+ Oracle_JDK-23/legal/java.datatransfer/COPYRIGHT    |    1 [32m+[m
+ Oracle_JDK-23/legal/java.datatransfer/LICENSE      |    1 [32m+[m
+ Oracle_JDK-23/legal/java.desktop/COPYRIGHT         |    1 [32m+[m
+ Oracle_JDK-23/legal/java.desktop/LICENSE           |    1 [32m+[m
+ Oracle_JDK-23/legal/java.desktop/colorimaging.md   |    7 [32m+[m
+ Oracle_JDK-23/legal/java.desktop/freetype.md       |  285 [32m+++[m
+ Oracle_JDK-23/legal/java.desktop/giflib.md         |   50 [32m+[m
+ Oracle_JDK-23/legal/java.desktop/harfbuzz.md       |  103 [32m+[m
+ Oracle_JDK-23/legal/java.desktop/jpeg.md           |   77 [32m+[m
+ Oracle_JDK-23/legal/java.desktop/lcms.md           |  103 [32m+[m
+ Oracle_JDK-23/legal/java.desktop/libpng.md         |  215 [32m++[m
+ Oracle_JDK-23/legal/java.desktop/mesa3d.md         |  134 [32m+[m
+ Oracle_JDK-23/legal/java.instrument/COPYRIGHT      |    1 [32m+[m
+ Oracle_JDK-23/legal/java.instrument/LICENSE        |    1 [32m+[m
+ Oracle_JDK-23/legal/java.logging/COPYRIGHT         |    1 [32m+[m
+ Oracle_JDK-23/legal/java.logging/LICENSE           |    1 [32m+[m
+ Oracle_JDK-23/legal/java.management.rmi/COPYRIGHT  |    1 [32m+[m
+ Oracle_JDK-23/legal/java.management.rmi/LICENSE    |    1 [32m+[m
+ Oracle_JDK-23/legal/java.management/COPYRIGHT      |    1 [32m+[m
+ Oracle_JDK-23/legal/java.management/LICENSE        |    1 [32m+[m
+ Oracle_JDK-23/legal/java.naming/COPYRIGHT          |    1 [32m+[m
+ Oracle_JDK-23/legal/java.naming/LICENSE            |    1 [32m+[m
+ Oracle_JDK-23/legal/java.net.http/COPYRIGHT        |    1 [32m+[m
+ Oracle_JDK-23/legal/java.net.http/LICENSE          |    1 [32m+[m
+ Oracle_JDK-23/legal/java.prefs/COPYRIGHT           |    1 [32m+[m
+ Oracle_JDK-23/legal/java.prefs/LICENSE             |    1 [32m+[m
+ Oracle_JDK-23/legal/java.rmi/COPYRIGHT             |    1 [32m+[m
+ Oracle_JDK-23/legal/java.rmi/LICENSE               |    1 [32m+[m
+ Oracle_JDK-23/legal/java.scripting/COPYRIGHT       |    1 [32m+[m
+ Oracle_JDK-23/legal/java.scripting/LICENSE         |    1 [32m+[m
+ Oracle_JDK-23/legal/java.se/COPYRIGHT              |    1 [32m+[m
+ Oracle_JDK-23/legal/java.se/LICENSE                |    1 [32m+[m
+ Oracle_JDK-23/legal/java.security.jgss/COPYRIGHT   |    1 [32m+[m
+ Oracle_JDK-23/legal/java.security.jgss/LICENSE     |    1 [32m+[m
+ Oracle_JDK-23/legal/java.security.sasl/COPYRIGHT   |    1 [32m+[m
+ Oracle_JDK-23/legal/java.security.sasl/LICENSE     |    1 [32m+[m
+ Oracle_JDK-23/legal/java.smartcardio/COPYRIGHT     |    1 [32m+[m
+ Oracle_JDK-23/legal/java.smartcardio/LICENSE       |    1 [32m+[m
+ Oracle_JDK-23/legal/java.sql.rowset/COPYRIGHT      |    1 [32m+[m
+ Oracle_JDK-23/legal/java.sql.rowset/LICENSE        |    1 [32m+[m
+ Oracle_JDK-23/legal/java.sql/COPYRIGHT             |    1 [32m+[m
+ Oracle_JDK-23/legal/java.sql/LICENSE               |    1 [32m+[m
+ Oracle_JDK-23/legal/java.transaction.xa/COPYRIGHT  |    1 [32m+[m
+ Oracle_JDK-23/legal/java.transaction.xa/LICENSE    |    1 [32m+[m
+ Oracle_JDK-23/legal/java.xml.crypto/COPYRIGHT      |    1 [32m+[m
+ Oracle_JDK-23/legal/java.xml.crypto/LICENSE        |    1 [32m+[m
+ Oracle_JDK-23/legal/java.xml.crypto/santuario.md   |  227 [32m++[m
+ Oracle_JDK-23/legal/java.xml/COPYRIGHT             |    1 [32m+[m
+ Oracle_JDK-23/legal/java.xml/LICENSE               |    1 [32m+[m
+ Oracle_JDK-23/legal/java.xml/bcel.md               |  219 [32m++[m
+ Oracle_JDK-23/legal/java.xml/dom.md                |   77 [32m+[m
+ Oracle_JDK-23/legal/java.xml/jcup.md               |   31 [32m+[m
+ Oracle_JDK-23/legal/java.xml/xalan.md              |  255 [32m++[m
+ Oracle_JDK-23/legal/java.xml/xerces.md             |  229 [32m++[m
+ Oracle_JDK-23/legal/jdk.accessibility/COPYRIGHT    |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.accessibility/LICENSE      |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.attach/COPYRIGHT           |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.attach/LICENSE             |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.charsets/COPYRIGHT         |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.charsets/LICENSE           |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.compiler/COPYRIGHT         |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.compiler/LICENSE           |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.crypto.cryptoki/COPYRIGHT  |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.crypto.cryptoki/LICENSE    |    1 [32m+[m
+ .../legal/jdk.crypto.cryptoki/pkcs11cryptotoken.md |   72 [32m+[m
+ .../legal/jdk.crypto.cryptoki/pkcs11wrapper.md     |   46 [32m+[m
+ Oracle_JDK-23/legal/jdk.crypto.ec/COPYRIGHT        |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.crypto.ec/LICENSE          |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.crypto.mscapi/COPYRIGHT    |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.crypto.mscapi/LICENSE      |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.dynalink/COPYRIGHT         |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.dynalink/LICENSE           |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.dynalink/dynalink.md       |   32 [32m+[m
+ Oracle_JDK-23/legal/jdk.editpad/COPYRIGHT          |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.editpad/LICENSE            |    1 [32m+[m
+ .../legal/jdk.graal.compiler.lib/COPYRIGHT         |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.graal.compiler.lib/LICENSE |    1 [32m+[m
+ .../legal/jdk.graal.compiler.lib/simdjson.md       |  210 [32m++[m
+ .../legal/jdk.graal.compiler.management/COPYRIGHT  |    1 [32m+[m
+ .../legal/jdk.graal.compiler.management/LICENSE    |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.graal.compiler/COPYRIGHT   |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.graal.compiler/LICENSE     |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.hotspot.agent/COPYRIGHT    |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.hotspot.agent/LICENSE      |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.httpserver/COPYRIGHT       |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.httpserver/LICENSE         |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.incubator.vector/COPYRIGHT |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.incubator.vector/LICENSE   |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.internal.ed/COPYRIGHT      |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.internal.ed/LICENSE        |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.internal.jvmstat/COPYRIGHT |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.internal.jvmstat/LICENSE   |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.internal.le/COPYRIGHT      |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.internal.le/LICENSE        |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.internal.le/jline.md       |   41 [32m+[m
+ Oracle_JDK-23/legal/jdk.internal.md/COPYRIGHT      |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.internal.md/LICENSE        |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.internal.md/commonmark.md  |   29 [32m+[m
+ Oracle_JDK-23/legal/jdk.internal.opt/COPYRIGHT     |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.internal.opt/LICENSE       |    1 [32m+[m
+ .../legal/jdk.internal.opt/jopt-simple.md          |   27 [32m+[m
+ Oracle_JDK-23/legal/jdk.internal.vm.ci/COPYRIGHT   |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.internal.vm.ci/LICENSE     |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.jartool/COPYRIGHT          |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.jartool/LICENSE            |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.javadoc/COPYRIGHT          |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.javadoc/LICENSE            |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.javadoc/dejavufonts.md     |  191 [32m++[m
+ Oracle_JDK-23/legal/jdk.javadoc/jquery.md          |   26 [32m+[m
+ Oracle_JDK-23/legal/jdk.javadoc/jqueryUI.md        |   49 [32m+[m
+ Oracle_JDK-23/legal/jdk.jcmd/COPYRIGHT             |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.jcmd/LICENSE               |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.jconsole/COPYRIGHT         |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.jconsole/LICENSE           |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.jdeps/COPYRIGHT            |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.jdeps/LICENSE              |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.jdi/COPYRIGHT              |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.jdi/LICENSE                |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.jdwp.agent/COPYRIGHT       |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.jdwp.agent/LICENSE         |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.jfr/COPYRIGHT              |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.jfr/LICENSE                |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.jlink/COPYRIGHT            |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.jlink/LICENSE              |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.jpackage/COPYRIGHT         |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.jpackage/LICENSE           |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.jshell/COPYRIGHT           |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.jshell/LICENSE             |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.jsobject/COPYRIGHT         |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.jsobject/LICENSE           |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.jstatd/COPYRIGHT           |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.jstatd/LICENSE             |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.localedata/COPYRIGHT       |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.localedata/LICENSE         |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.localedata/cldr.md         |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.localedata/thaidict.md     |   31 [32m+[m
+ Oracle_JDK-23/legal/jdk.management.agent/COPYRIGHT |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.management.agent/LICENSE   |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.management.jfr/COPYRIGHT   |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.management.jfr/LICENSE     |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.management/COPYRIGHT       |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.management/LICENSE         |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.naming.dns/COPYRIGHT       |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.naming.dns/LICENSE         |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.naming.rmi/COPYRIGHT       |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.naming.rmi/LICENSE         |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.net/COPYRIGHT              |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.net/LICENSE                |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.nio.mapmode/COPYRIGHT      |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.nio.mapmode/LICENSE        |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.sctp/COPYRIGHT             |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.sctp/LICENSE               |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.security.auth/COPYRIGHT    |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.security.auth/LICENSE      |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.security.jgss/COPYRIGHT    |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.security.jgss/LICENSE      |    1 [32m+[m
+ .../legal/jdk.unsupported.desktop/COPYRIGHT        |    1 [32m+[m
+ .../legal/jdk.unsupported.desktop/LICENSE          |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.unsupported/COPYRIGHT      |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.unsupported/LICENSE        |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.xml.dom/COPYRIGHT          |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.xml.dom/LICENSE            |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.zipfs/COPYRIGHT            |    1 [32m+[m
+ Oracle_JDK-23/legal/jdk.zipfs/LICENSE              |    1 [32m+[m
+ Oracle_JDK-23/lib/classlist                        | 1717 [32m+++++++++++++[m
+ Oracle_JDK-23/lib/ct.sym                           |  Bin [31m0[m -> [32m10744527[m bytes
+ Oracle_JDK-23/lib/fontconfig.bfc                   |  Bin [31m0[m -> [32m4836[m bytes
+ Oracle_JDK-23/lib/fontconfig.properties.src        |  332 [32m+++[m
+ Oracle_JDK-23/lib/jawt.lib                         |  Bin [31m0[m -> [32m1682[m bytes
+ Oracle_JDK-23/lib/jfr/default.jfc                  | 1148 [32m+++++++++[m
+ Oracle_JDK-23/lib/jfr/profile.jfc                  | 1147 [32m+++++++++[m
+ Oracle_JDK-23/lib/jrt-fs.jar                       |  Bin [31m0[m -> [32m109443[m bytes
+ Oracle_JDK-23/lib/jvm.cfg                          |    2 [32m+[m
+ Oracle_JDK-23/lib/jvm.lib                          |  Bin [31m0[m -> [32m1060286[m bytes
+ Oracle_JDK-23/lib/modules                          |  Bin [31m0[m -> [32m140966344[m bytes
+ Oracle_JDK-23/lib/psfont.properties.ja             |  119 [32m+[m
+ Oracle_JDK-23/lib/psfontj2d.properties             |  323 [32m+++[m
+ Oracle_JDK-23/lib/security/blocked.certs           |   39 [32m+[m
+ Oracle_JDK-23/lib/security/cacerts                 |  Bin [31m0[m -> [32m136367[m bytes
+ Oracle_JDK-23/lib/security/default.policy          |  230 [32m++[m
+ Oracle_JDK-23/lib/security/public_suffix_list.dat  |  Bin [31m0[m -> [32m230382[m bytes
+ Oracle_JDK-23/lib/src.zip                          |  Bin [31m0[m -> [32m44122146[m bytes
+ Oracle_JDK-23/lib/tzdb.dat                         |  Bin [31m0[m -> [32m104163[m bytes
+ Oracle_JDK-23/lib/tzmappings                       |  365 [32m+++[m
+ Oracle_JDK-23/release                              |    9 [32m+[m
+ pom.xml                                            |   63 [32m+[m
+ presc.txt                                          |    7 [32m+[m
+ review.txt                                         |   23 [32m+[m
+ src/main/java/com/Prescription.java                |  131 [32m+[m
+ src/main/java/com/rmit/Main.java                   |    7 [32m+[m
+ src/test/java/PrescriptionTest.java                |  114 [32m+[m
+ target/classes/com/rmit/Main.class                 |  Bin [31m0[m -> [32m534[m bytes
+ target/classes/com/rmit/Prescription.class         |  Bin [31m0[m -> [32m4855[m bytes
+ .../compile/default-compile/createdFiles.lst       |    2 [32m+[m
+ .../compile/default-compile/inputFiles.lst         |    2 [32m+[m
+ .../default-testCompile/createdFiles.lst           |    1 [32m+[m
+ .../testCompile/default-testCompile/inputFiles.lst |    1 [32m+[m
+ .../TEST-com.rmit.PrescriptionTest.xml             |   70 [32m+[m
+ .../surefire-reports/com.rmit.PrescriptionTest.txt |    4 [32m+[m
+ .../test-classes/com/rmit/PrescriptionTest.class   |  Bin [31m0[m -> [32m2174[m bytes
+ 440 files changed, 22079 insertions(+)
